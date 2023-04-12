@@ -17,6 +17,7 @@
   align-content: center;
   justify-content: space-between;
   font-weight: 500;
+  color: #000;
 }
 
 .example-accordion-item-description {
@@ -26,7 +27,11 @@
 
 .example-accordion-item-header,
 .example-accordion-item-body {
-  padding: 16px;
+  padding: 12px;
+}
+
+.example-accordion-item-body {
+  color:#404040;
 }
 
 .example-accordion-item-header:hover {
